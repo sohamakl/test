@@ -7,7 +7,7 @@ Bob --> Alice: Authentication Response
 @enduml
 ```
 
-```
+```plantuml
 @startuml
 Alice -> Bob: This will be displayed as code.
 @enduml
