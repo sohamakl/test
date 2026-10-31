@@ -261,6 +261,16 @@ GFM
 > [!CAUTION]
 > Ein Hinweis auf ein konkretes Risiko.
 
+## 19. Hinweise und Warnungen (Typemill spezific implementation)
+
+! First level note
+
+!! Second level note
+
+!!! Thirdt level note
+
+!!!! fourth level note
+
 ## 20. Mathematische Formeln
 
 Inline-Formel: $E = mc^2$
