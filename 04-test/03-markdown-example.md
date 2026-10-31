@@ -33,12 +33,6 @@ version: 1.0
 
 ###### Überschrift Ebene 6
 
-Alternative Schreibweise für Ebene 1
-====================================
-
-Alternative Schreibweise für Ebene 2
-------------------------------------
-
 ## 2. Textformatierung
 
 Normaler Fließtext mit einem  
