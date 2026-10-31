@@ -1,6 +1,6 @@
 # PlantUml
 
-```plantuml-diagram align="center" padding="10px" size="600px"
+```plantuml-diagram align="center" padding="10px" size="300px"
 @startuml
 Alice -> Bob: Authentication Request
 Bob --> Alice: Authentication Response
