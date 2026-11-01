@@ -1,18 +1,5 @@
 # Markdown Example
 
----
-
-title: "Umfassendes Markdown-Beispieldokument ohne HTML"
-author: "Mark Klein"
-date: 2026-10-31
-tags:
-
-  - Markdown
-  - Dokumentation
-  - Test
-version: 1.0
----
-
 # Umfassendes Markdown-Beispieldokument ohne HTML
 
 > **Hinweis:** Dieses Dokument demonstriert Standard-Markdown und verbreitete Erweiterungen ohne eingebetteten HTML-Code. Nicht jeder Markdown-Renderer unterstützt alle gezeigten Funktionen.
@@ -121,7 +108,27 @@ ___
 
 ## 9. Links
 
+Ein [Inline-Link zu Markdown Guide](https://www.markdownguide.org/) enthält das Ziel direkt.
+
+Ein [Link mit Titel](https://commonmark.org/ "CommonMark-Website") zeigt gegebenenfalls einen Tooltip.
+
+Ein Referenzlink verweist auf die [CommonMark-Spezifikation][commonmark].
+
+Auch eine ausgeschriebene Adresse kann automatisch verlinkt werden: https://example.com
+
+E-Mail-Adresse: max.mustermann@example.com
+
+Interner Sprung: [Direkt zum SQL-Beispiel](#15-sql-beispiel)
+
+[commonmark]: https://spec.commonmark.org/ "CommonMark Specification"
+
 ## 10. Bilder
+
+![Alternativtext für ein Beispielbild](https://placehold.co/600x180/png "Beispielbild")
+
+Bild als Link:
+
+[![Kleines Beispielbild](https://placehold.co/180x60/png)](https://example.com)
 
 > Externe Bilder werden nur angezeigt, wenn der Renderer Internetzugriff erlaubt.
 
@@ -372,23 +379,4 @@ Sonderzeichen: © ® ™ € £ ¥ → ← ↔ ± ≠ ≤ ≥
 | Mermaid | | ✅ |
 | Formeln | | ✅ |
 | Hinweise/Alerts | | ✅ |
-
-## 29. Abschluss-Checkliste
-
-- [x] Überschriften
-- [x] Textformatierungen
-- [x] Listen und Aufgabenlisten
-- [x] Links und Bilder
-- [x] Tabellen
-- [x] Codeblöcke
-- [x] Zitate und Hinweise
-- [x] Fußnoten und Definitionen
-- [x] Formeln
-- [x] Mermaid-Diagramme
-- [x] Emojis und Sonderzeichen
-
----
-
-**Ende des Markdown-Beispieldokuments**  
-Version 1.0 · Erstellt als Test- und Referenzdatei
 
